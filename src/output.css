@@ -544,7 +544,176 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+.absolute {
+  position: absolute;
 }
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+.m-\[10px\] {
+  margin: 10px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[80\%\] {
+  height: 80%;
+}
+
+.h-\[90\%\] {
+  height: 90%;
+}
+
+.h-\[96\%\] {
+  height: 96%;
+}
+
+.h-\[40px\] {
+  height: 40px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-\[3\] {
+  flex: 3;
+}
+
+.flex-\[10\] {
+  flex: 10;
+}
+
+.flex-\[9\] {
+  flex: 9;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-\[\#00000060\] {
+  border-color: #00000060;
+}
+
+.border-\[\#00000030\] {
+  border-color: #00000030;
+}
+
+.bg-\[\#00007760\] {
+  background-color: #00007760;
+}
+
+.bg-\[\#00770060\] {
+  background-color: #00770060;
+}
+
+.bg-\[\#fff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#ffffff60\] {
+  background-color: #ffffff60;
+}
+
+.bg-\[\#ffffff40\] {
+  background-color: #ffffff40;
+}
+
+.bg-\[\#ffffff20\] {
+  background-color: #ffffff20;
+}
+
+.bg-\[\#ffffffa0\] {
+  background-color: #ffffffa0;
+}
+
+.bg-\[\#ffffffd0\] {
+  background-color: #ffffffd0;
+}
+
+.bg-\[\#0000a030\] {
+  background-color: #0000a030;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.background{
+  background: url('./img/wallpaper.jpg');
+  background-size: cover;
+}
+

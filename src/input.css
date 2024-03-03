@@ -4,7 +4,9 @@
 
 
 
-.awa{
-    color:blue
+.background{
+    background: url('./img/wallpaper.jpg');
+    background-size: cover;
+
 }
 
