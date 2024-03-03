@@ -1,9 +1,5 @@
 
 {
-  "scripts": {
-    "dev": "tailwindcss build -i ./src/tailwind.css -o ./public/tailwind.css",
-    "build": "NODE_ENV=production npm run dev"
-  },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   }
